@@ -58,6 +58,3 @@ foreign key(order_id) references orders(id) on delete cascade,
 foreign key(menu_item_id) references menu_items(id) on delete cascade
 );
 
-
-ALTER TABLE restaurant_tables
-ADD COLUMN is_active BOOLEAN DEFAULT TRUE;
